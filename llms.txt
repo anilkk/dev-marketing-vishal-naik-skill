@@ -1,0 +1,22 @@
+# dev-marketing-vishal-naik-skill
+
+> A Claude skill that encodes Vishal Naik's developer marketing playbook, the one that lifted DocuSign's developer marketing conversion rates by 50 percent. It segments developers into four personas, maps each persona's emotional journey through the funnel, structures the internal pitch decks that win cross functional buy in, and designs drip delivery launches. Source: https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50. Frameworks belong to Vishal Naik. Repository text is MIT licensed.
+
+Install for Claude Code: `git clone https://github.com/anilkk/dev-marketing-vishal-naik-skill.git && cp -r dev-marketing-vishal-naik-skill/dev-marketing-vishalnaik ~/.claude/skills/`
+
+## Files
+
+- [README.md](README.md): What the skill does, a 10 second before and after demo, install steps for Claude Code and for Cowork or claude.ai, the five modes, and full source attribution.
+- [dev-marketing-vishalnaik/SKILL.md](dev-marketing-vishalnaik/SKILL.md): The skill itself. YAML frontmatter with trigger phrases, the lens, the core axiom, eight signature moves, five named frameworks, do and do not lists, common mistakes, the DocuSign case, a worked example, output expectations, and sources.
+- [REFERENCE.md](REFERENCE.md): One page cheat sheet. The 7 principles, the 4 personas, the persona by funnel by emotion grid, the 5 step process, deck structures, the day one launch checklist, and the metrics stack.
+- [examples/01-b2b-data-api-diversify.md](examples/01-b2b-data-api-diversify.md): Full Diversify mode run for a B2B web data and scraping API. Personas, emotion maps, per persona channels, and the opportunity deck outline.
+- [examples/02-consumer-dev-tool-pitch-and-launch.md](examples/02-consumer-dev-tool-pitch-and-launch.md): Full Pitch and Launch mode run for a prosumer transactional email API with a large indie developer base.
+- [LICENSE](LICENSE): MIT for repository text, with an attribution carve out stating the frameworks belong to Vishal Naik.
+
+## Modes
+
+- Diversify: build a persona segmented developer marketing plan.
+- Pitch: build the opportunity deck and the buy in deck.
+- Launch: design a drip delivery launch with a day one materials slate.
+- Measure: define the funnel and business impact metrics stack.
+- Coach: teach the framework using your product as the example.

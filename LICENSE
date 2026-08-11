@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 Anil Kumar Krishnashetty
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ATTRIBUTION AND SCOPE
+
+The developer marketing frameworks encoded in this repository, including the
+Principles of Developer Marketing, the four developer personas, the 5 step
+diversified developer PMM process, the opportunity and buy in deck structure,
+and the associated metrics stack, are the intellectual property of Vishal Naik
+and were published by him on Sharebird and in his other public writing and
+interviews.
+
+This license applies only to the original text written for this repository.
+No text from the source playbook, AMAs, or other source material is reproduced
+here beyond short attributed references. Anyone using this repository should
+read and credit the original source:
+
+https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50
