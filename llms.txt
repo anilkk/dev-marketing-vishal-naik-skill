@@ -1,6 +1,6 @@
 # dev-marketing-vishal-naik-skill
 
-> A Claude skill that encodes Vishal Naik's developer marketing playbook, the one that lifted DocuSign's developer marketing conversion rates by 50 percent. It segments developers into four personas, maps each persona's emotional journey through the funnel, structures the internal pitch decks that win cross functional buy in, and designs drip delivery launches. Source: https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50. Frameworks belong to Vishal Naik. Repository text is MIT licensed.
+> A Claude skill that encodes Vishal Naik's developer and platform marketing playbook, the one that lifted DocuSign's developer marketing conversion rates by 50 percent. It segments developers into four personas, maps each persona's emotional journey through the funnel, builds the evidence kit that makes a platform legible to leadership, constructs platform messaging hierarchies and benefit ladders, and designs drip delivery launches. Built from his Sharebird playbook plus his Developer Product Marketing, Platform Product Marketing, and Messaging Strategy AMAs. Source: https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50. Frameworks belong to Vishal Naik. Repository text is MIT licensed.
 
 Install for Claude Code: `git clone https://github.com/anilkk/dev-marketing-vishal-naik-skill.git && cp -r dev-marketing-vishal-naik-skill/dev-marketing-vishalnaik ~/.claude/skills/`
 
@@ -16,7 +16,8 @@ Install for Claude Code: `git clone https://github.com/anilkk/dev-marketing-vish
 ## Modes
 
 - Diversify: build a persona segmented developer marketing plan.
-- Pitch: build the opportunity deck and the buy in deck.
+- Pitch: build the opportunity deck, the buy in deck, and the four comparison metrics that make a platform legible to leadership.
 - Launch: design a drip delivery launch with a day one materials slate.
+- Message: build the platform messaging hierarchy, the benefit ladder, and the internal Product Marketing Guide.
 - Measure: define the funnel and business impact metrics stack.
 - Coach: teach the framework using your product as the example.

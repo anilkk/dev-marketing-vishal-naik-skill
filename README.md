@@ -7,7 +7,7 @@ Stop marketing to "developers" as one person. Segment them, map what they feel a
 [![Works with Cowork](https://img.shields.io/badge/Works%20with-Cowork%20%26%20claude.ai-1f6feb)](https://claude.ai)
 [![Source: Vishal Naik](https://img.shields.io/badge/Source-Vishal%20Naik%20playbook-0b7285)](https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50)
 
-Built on the published playbook of **Vishal Naik**, who ran developer marketing at DocuSign and lifted developer marketing conversion rates by 50 percent. He later led developer marketing for Google Assistant and product marketing at Google, and is now Head of Product Marketing, Platform and Integrations at Box.
+Built on the published playbook and AMAs of **Vishal Naik**, who ran developer marketing at DocuSign and lifted developer marketing conversion rates by 50 percent. He later led developer marketing for Google Assistant and worked on Gemini at Google, and is now Head of Product Marketing, AI and Platform at Box.
 
 ## 10-second demo
 
@@ -66,6 +66,7 @@ For a single project instead of every project, copy into `.claude/skills/` insid
 | "Build a developer marketing plan for our API" | **Diversify** |
 | "I need a deck to get the COO to fund this" | **Pitch** |
 | "How should we launch the new SDK to developers?" | **Launch** |
+| "Our platform does ten things. What do we lead with?" | **Message** |
 | "What should we actually measure?" | **Measure** |
 | "Why do we keep marketing to developers as one group?" | **Coach** |
 
@@ -74,8 +75,9 @@ For a single project instead of every project, copy into `.claude/skills/` insid
 | Mode | What it does |
 |---|---|
 | **Diversify** | Builds a persona segmented plan: four personas, journey and emotion maps, channels and content per persona |
-| **Pitch** | Structures the opportunity deck and the buy in deck, plus the prioritization matrix for annual planning |
+| **Pitch** | Structures the opportunity deck, the buy in deck, and the four comparison metrics that make a platform legible to leadership |
 | **Launch** | Designs a drip delivery launch with the day one materials slate |
+| **Message** | Builds the platform messaging hierarchy, the benefit ladder, and the internal Product Marketing Guide |
 | **Measure** | Defines the funnel and business impact metrics stack, from trial signup through live integrations |
 | **Coach** | Teaches the framework using your product as the example |
 
@@ -83,12 +85,17 @@ Also in the repo: [REFERENCE.md](REFERENCE.md) is a one page cheat sheet of ever
 
 ## What it is built on
 
-The skill encodes Naik's published material:
+The skill encodes Naik's published material across his playbook and three AMAs:
 
 - The **Principles of Developer Marketing**, seven principles covering audience, messaging, segments, tangible value, paths of usage, launch timing, and channels
 - The **four developer personas**: SMB developer, enterprise developer, "doer" developer, ISV partner
 - The **5 step diversified developer PMM process**: hypothesis, data, journey map, buy in, project plans
-- The **two pitch decks**, opportunity and buy in, plus democratic prioritization
+- The **buy in evidence kit**, the four comparisons he used to make DocuSign's platform legible to leadership: developer lead conversion vs other inbound, ACV of a developer lead, platform customer LTV and churn, and usage lift after platform content
+- The **platform messaging hierarchy**, built by finding the common denominator across everything the platform does
+- The **concert analogy** separating Portfolio, Platform, Ecosystem, and Suite
+- The **Benefit Ladder** via 7 Whys, four rungs from feature to identity, with guidance on which rung a developer actually sits at
+- **Messaging vs the Messaging Framework**, and the internal Product Marketing Guide he ran on the Gemini team
+- The **tripod** for roadmap influence: PM, Engineering, and PMM, with PMM representing the customer
 - His **metrics stack**, measured through to integrations running in production
 
 ## What it deliberately refuses to do
@@ -106,8 +113,10 @@ Parts of the source playbook sit behind a free Sharebird account. The skill carr
 Every framework in this skill comes from **Vishal Naik's** own published work. Read the originals:
 
 - **Playbook:** [How DocuSign Increased Their Developer Marketing Conversion Rates By 50%](https://sharebird.com/h/product-marketing/playbooks/how-docusign-increased-their-developer-marketing-conversion-rates-by-50) on Sharebird. This is the primary source for the principles, the four personas, the 5 step process, the pitch deck structure, and the 50 percent result.
-- **AMA:** [Vishal Naik on Developer Product Marketing](https://sharebird.com/h/product-marketing/ama/google-assistant-developer-maarketing-lead-vishal-naik-on-developer-product-marketing). Source for the metrics stack, channel guidance, sales enablement, and how he separates developer marketing from DevRel.
-- **More AMAs:** [his Sharebird profile](https://sharebird.com/profile/vishal-naik) covers market research and product launches.
+- **AMA, Developer Product Marketing:** [link](https://sharebird.com/h/product-marketing/ama/google-assistant-developer-maarketing-lead-vishal-naik-on-developer-product-marketing). Source for the metrics stack, channel guidance, the early vs later funnel rule, the developer checkpoint sequence, and how he separates developer marketing from DevRel.
+- **AMA, Platform Product Marketing:** [link](https://sharebird.com/h/product-marketing/ama/docusign-director-of-product-marketing-vishal-naik-on-platform-product-marketing). Source for the buy in evidence kit, the common denominator messaging hierarchy, the concert analogy, platform sales enablement, and the tripod.
+- **AMA, Messaging Strategy:** [link](https://sharebird.com/h/product-marketing/ama/box-head-of-product-marketing-ai-platform-vishal-naik-on-messaging-strategy). Source for the Benefit Ladder, messaging vs the messaging framework, the internal Product Marketing Guide, and differentiation as an empathy war.
+- **More AMAs:** [his Sharebird profile](https://sharebird.com/profile/vishal-naik) covers market research, product launches, AI and product marketing, and influencing the roadmap.
 - **His writing at DocuSign:** [docusign.com/blog/author/vishal-naik](https://www.docusign.com/blog/author/vishal-naik)
 - **Interview:** [Influencing the Product Roadmap](https://thecompetenetwork.com/episode/vishal-naik-product-marketing-lead-at-google-on-influencing-the-product-roadmap), Compete Network
 - **Where he is now:** [Head of Product Marketing, Platform and Integrations at Box](https://theorg.com/org/box/org-chart/vishal-naik)

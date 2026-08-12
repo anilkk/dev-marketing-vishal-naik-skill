@@ -31,13 +31,72 @@ One page. Every framework in the skill. Frameworks by Vishal Naik, [source playb
 
 Build one grid per persona. Buyer persona plus marketing funnel combined into one view, centered on emotion.
 
-| Funnel stage | What they do | What they think and feel | What answers it | Owner |
+Use his real developer checkpoint sequence as the spine, not generic funnel stages:
+
+| Checkpoint | What they do | What they think and feel | What answers it | Owner |
 |---|---|---|---|---|
-| Awareness | | | | |
-| Evaluate | | | | |
-| Trial | | | | |
-| Build | | | | |
-| Production | | | | |
+| Documentation | | | | |
+| Community (Reddit, Stack Overflow) | | | | |
+| Sandbox signup | | | | |
+| Proof of concept | | | | |
+| Test | | | | |
+| Publish live | | | | |
+
+## The early vs later funnel rule
+
+> Early funnel content is the art of what's possible. Later funnel content is how to get something done. Developer marketing maps closer to later funnel.
+
+Practical test: if your developer content leads with market problem, then winners and losers, then product solves problem, it is early funnel and will not tell a developer how to create something. Stop asking how technical the copy should be. Ask which funnel stage this persona is in.
+
+## The Benefit Ladder (7 Whys)
+
+Ask "why does this matter" repeatedly. Map the whole ladder, then pick the rung that fits the audience.
+
+| Rung | Level | Example |
+|---|---|---|
+| 1 | Feature | Auto summarize meeting notes |
+| 3 | Functional | Save 30 minutes per meeting |
+| 5 | Emotional | Stop the anxiety of dropping the ball |
+| 7 | Identity | Be the strategic leader not stuck in the weeds |
+
+Practitioner drowning in work responds to rung 3. Executive only moves at rung 7. The developer usually sits lower on the ladder.
+
+## Portfolio vs Platform vs Ecosystem vs Suite
+
+| Term | Concert analogy | Meaning |
+|---|---|---|
+| Portfolio or Suite | The band | The grouping of products you sell |
+| Ecosystem | TicketMaster or StubHub | How you gain access without the box office |
+| Platform | The stage | The connective tissue that makes it all work |
+
+Do not use platform and suite interchangeably.
+
+## Platform messaging hierarchy
+
+Find the common denominator across everything the platform does. Does it create a new output, solve a new problem, or enable a new style of working? Lead with that. Let the capabilities become supporting evidence.
+
+Get there through market context, the customer's pain points, and your differentiated point of view.
+
+## Messaging vs the Messaging Framework
+
+> Messaging is for the customer. The Messaging Framework is for the internal team. The friction happens when we confuse the two.
+
+External: simple and emotive. Internal: the wiring underneath. House both in an internal Product Marketing Guide, one deck as the single source of truth for brand messaging, personas, journey maps, and market context. Tailor the view per stakeholder.
+
+## The buy in evidence kit
+
+Four comparisons that make a platform legible to leadership. Tell the story inside the KPIs leadership already uses.
+
+- [ ] Conversion rate of a developer lead vs other inbound sources
+- [ ] ACV of a developer lead vs other inbound sources
+- [ ] LTV and churn of a platform customer vs all customers
+- [ ] Usage lift after platform marketing content is consumed
+
+There is no silver bullet stat. Build the case one step at a time, each step bigger than the last.
+
+## The tripod
+
+Roadmap decisions at the intersection of PM, Engineering, and PMM, with PMM representing the customer. Without it, find out what actually drives the roadmap: revenue, usage, or a PM's pride in shipping their own idea.
 
 ## The 5 step process
 
@@ -86,13 +145,32 @@ A launch is not ready until all of these ship together:
 - Go live success rate
 - Integrations per customer
 - Endpoint call volume
+- The linear map of which API a customer adopts after your most popular one
 
-**Three reporting dimensions:** momentum in the platform, quantified end user value, impact to the business.
+**Three reporting dimensions:** momentum in the platform, quantified end user value, impact to the business. In B2B the third dimension is business health such as high ASP and low churn. In B2C, swap it for engagement, such as DAU of the integrated cohort vs the non integrated one.
 
 ## Channels, ranked by his experience
 
-Email first. It was the number one driver of action at DocuSign, consistent across web and mobile customers. Then YouTube, Stack Overflow, Twitch, Reddit. Then route to market partnerships that put the product inside tools developers already work in.
+Email first. It was the number one driver of action at DocuSign, consistent across web and mobile customers. Then YouTube, Stack Overflow, Twitch, Reddit, Twitter, and LinkedIn. Google Display ads performed well. Events, webinars, and livestreams work. Do not neglect the blog and website, often the first place a developer looks. Then route to market partnerships that put the product inside tools developers already work in.
 
-## Sales enablement rule
+## Sales enablement rules
 
 Arm sales at the 101 level so they know enough to be dangerous, meaning they can hold a basic technical conversation and know which expert to bring in next. Skip the 400 level content they will never use.
+
+For a platform specifically, you are selling what the customer can accomplish, not what they are buying. Enable the journey, not just the features:
+
+- [ ] What does the usage journey look like?
+- [ ] How does an SDR get the appointment for the AE?
+- [ ] How does the AE hand off to an SE?
+- [ ] Which persona does a platform conversation actually require?
+- [ ] Is the platform as easy to sell as the standard product?
+
+Sales gravitates to the path of least resistance. Payoff for getting this right: platform customers are stickier, because of the work they invested.
+
+## Differentiate by empathy, not features
+
+Do not mine competitor websites. Mine sales call transcripts, support tickets, and community threads for the customer's own nouns and verbs.
+
+Inside out: "seamless omnichannel data synchronization." Customer reality: "I hate copy pasting the same lead into three spreadsheets." Differentiation: "stop the copy paste nightmare."
+
+Then answer the objection in the headline before it is asked. "Get live in 4 days, not 4 months."
